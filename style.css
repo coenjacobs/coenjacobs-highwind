@@ -1,0 +1,27 @@
+/*
+Template Name: Coen Jacobs
+Template: highwind
+*/
+
+@import url('../highwind/style.css');
+
+.header {
+	padding-top: 2em;
+	padding-bottom: 0;
+}
+
+.widget#text-4 {
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.widget#text-4 img {
+	text-align: center;
+}
+
+.sidebar .widget {
+	filter: none;
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
