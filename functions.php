@@ -9,15 +9,6 @@ function coenjacobs_theme_supports() {
 	add_theme_support( 'post-formats', array( 'aside', 'image' ) );
 }
 
-add_action( 'init', 'coenjacobs_highwind_hook_changes' );
-
-/**
- * Removes the default header of Highwind
- */
-function coenjacobs_highwind_hook_changes() {
-	remove_action( 'highwind_header', 'highwind_site_title', 20 );
-}
-
 /**
  * Core theme function override
  * Probably should look into making this list filterable so I don't have to override
